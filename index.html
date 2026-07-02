@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>胡兵网球项目资料入口</title>
+  <style>
+    body {
+      margin: 0;
+      color: #171717;
+      background: #f1f2ee;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.7;
+    }
+    main {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.08;
+      margin: 0 0 14px;
+    }
+    p { color: #60646c; margin: 0 0 24px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    a.card {
+      display: block;
+      min-height: 170px;
+      padding: 22px;
+      color: #171717;
+      background: #fff;
+      border: 1px solid #d9ddd7;
+      text-decoration: none;
+    }
+    .card strong {
+      display: block;
+      color: #176b4d;
+      font-size: 22px;
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+    .card span {
+      color: #60646c;
+      display: block;
+    }
+    @media (max-width: 720px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>胡兵网球项目资料入口</h1>
+    <p>给内容、编导和商业化团队使用的当前版本资料。</p>
+    <div class="grid">
+      <a class="card" href="director-brief.html">
+        <strong>已发布视频分析与后续拍摄建议</strong>
+        <span>基于 12 条已发布抖音视频，判断项目进度、后续拍摄方向、摔拍脚本和商业化衔接。</span>
+      </a>
+      <a class="card" href="commercial-proposal.html">
+        <strong>商业化 Proposal</strong>
+        <span>项目商业定位、品牌合作地图、产品包、平台打法和 90 天路线图。</span>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
